@@ -1,0 +1,7 @@
+n = str(input('Escreva algo: ')).lower().strip()
+#nc = n.count('a')
+#ns = n.count('A')
+#f = int(nc + ns)
+print('Esta frase tem {} letras A.'.format(n.count('a')))
+print('A primeira letra A aparece na posicao {}.'.format(n.find('a')+1))
+print('A ultima letra A aparece na posicao {}.'.format(n.rfind('a')+1))
